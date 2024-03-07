@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path
+        name="test_camera_app"
+        path="Android/data/com.example.cameraimagesavetemp/files/Pictures"/>
+</paths>

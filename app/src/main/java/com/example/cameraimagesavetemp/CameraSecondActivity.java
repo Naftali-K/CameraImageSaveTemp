@@ -153,6 +153,7 @@ public class CameraSecondActivity extends AppCompatActivity {
             sendBroadcast(mediaScanIntent);
 
             Toast.makeText(this, "Image Saved Successfully.", Toast.LENGTH_SHORT).show();
+            Log.d(MainActivity.TAG, "saveImageToGallery: Image Uri: " + Uri.fromFile(imageFile).toString());
         } catch (FileNotFoundException e) {
             Log.d(MainActivity.TAG, "saveImageToGallery: Error FileOutputStream: " + e.toString());
             throw new RuntimeException(e);
